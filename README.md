@@ -19,6 +19,10 @@ I only see 3 possible fix for this:
  ---
  
 #### Now with out further introduction here is the bug, just compare the following 3 pictures:
+![image](https://raw.githubusercontent.com/Julioacarrettoni/BlurAnnihilation/master/Screenshots/blur.png)
 
+![image](https://raw.githubusercontent.com/Julioacarrettoni/BlurAnnihilation/master/Screenshots/no_blur.png)
+
+![image](https://raw.githubusercontent.com/Julioacarrettoni/BlurAnnihilation/master/Screenshots/bugged_blur.png)
  
  
