@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1A4CCFA4-4BBD-4170-9498-C335AFFD19AF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BlurAnnihilation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D30600CA16EBA3D0C5E640E78AC0B503E4BF151D</key>
+		<string>https://github.com/Julioacarrettoni/BlurAnnihilation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BlurAnnihilation.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D30600CA16EBA3D0C5E640E78AC0B503E4BF151D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Julioacarrettoni/BlurAnnihilation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D30600CA16EBA3D0C5E640E78AC0B503E4BF151D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D30600CA16EBA3D0C5E640E78AC0B503E4BF151D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BlurAnnihilation</string>
+		</dict>
+	</array>
+</dict>
+</plist>
