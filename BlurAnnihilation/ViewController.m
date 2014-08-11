@@ -27,13 +27,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //You start by creating a normal UIVisualEffectView + UIBlurEffect
     blurViewToBeDeactivated = [self blurViewWithFrame:CGRectMake(0, 0, 319, 568)];
-    UIVisualEffectView* blurViewUsedToDeactivate = [self blurViewWithFrame:CGRectMake(-319, 0, 320, 568)];
     
+    //Then you create a small view that is contained inside the bounds of the blur you want to bug
     viewThatProvidesTheMasking = [[UIView alloc] initWithFrame:CGRectMake(319, 0, 320, 568)];
     viewThatProvidesTheMasking.clipsToBounds = YES;
+    
+    //Now you create another blur to insert inside the previous view and you place it in a way
+    //so it "theoretically" covers the previous blur (if the view wasn't clipping it's content)
+    UIVisualEffectView* blurViewUsedToDeactivate = [self blurViewWithFrame:CGRectMake(-319, 0, 320, 568)];
     [viewThatProvidesTheMasking addSubview:blurViewUsedToDeactivate];
     
+    //Finally you add everything to the view in the propper order:
+    //0=sad_puppy, 1=lorem ipsum text, 2=blur to bug and 3=blur that bugs the other blur
     [self.view insertSubview:blurViewToBeDeactivated atIndex:2];
     [self.view insertSubview:viewThatProvidesTheMasking atIndex:3];
     
